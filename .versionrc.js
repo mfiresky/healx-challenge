@@ -23,7 +23,7 @@ module.exports = {
     {type: 'style', section: internalSection, hidden: false},
 
     // Reverts a previous commit
-    {type: 'revert', section: internalSection, hidden: true},
+    {type: 'revert', section: internalSection, hidden: true}
   ],
   commitAll: true,
 };
