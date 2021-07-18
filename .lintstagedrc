@@ -1,0 +1,5 @@
+{
+  "*.{js,jsx,ts,tsx}": ["eslint --fix", "eslint"],
+  "*.json": ["prettier --write"],
+  "package-lock.json": "lockfile-lint"
+}
